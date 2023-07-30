@@ -1,3 +1,5 @@
+global result
+
 print("Hello! This is calculator in Python")
 print("Give first number")
 num1 = float(input())
@@ -10,7 +12,7 @@ calculate = input()
 def calculator(number1, number2, calculate1):
     global result
     if calculate1 == "+":
-        result = (number1 + number2)
+        result = number1 + number2
 
     elif calculate1 == "-":
         result = number1 - number2
